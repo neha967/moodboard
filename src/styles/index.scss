@@ -2,5 +2,91 @@ $body-color: slateblue;
 
 body {
   color: $body-color;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.bg-wrapper {
+  background: url("../../public/images/img_bg_moodboard_simple.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw
+}
+
+.info {
+  height: 9vh;
+  width: 27vw;
+}
+
+.female {
+  height: 8vh;
+  width: 10vw;
+}
+
+.img-container {
+  width: 25vw;
+  height: 70vh;
+}
+
+.img-container img {
+  height: 150px;
+}
+
+.dip-container {
+  height: 190px;
+}
+
+.text-white {
+  background-color: rgba(255,135,28,0.65);
+  position: relative;
+  bottom: 19%;
+  height: 4vh;
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.show {
+  display: block
+}
+
+#next-btn, .next-btn {
+  cursor: pointer;
+  background-color: #FF871C;
+  color: white;
+  border-radius: 10px;
+  width: 10vw;
+  padding: 10px;
+  border: none;
+}
+
+#next-btn:hover {
+  background-color: brown;
+}
+
+.new-style {
+  background-color: #A8A27C;
+  border-radius: 15px;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around !important;
+  align-items: center !important;
+  align-content: space-around !important;
+}
+
+.selected-img {
+  height: 200px;
+}
+
+.pinned {
+  height: 40px;
+  width: 20px;
+}
+
+.new-class {
+  justify-content: space-evenly !important;
 }
